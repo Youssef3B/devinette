@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DS-Digital', sans-serif;
+}
+body{
+    background-color: black;
+    font-family: 'DS-Digital', sans-serif;
+}
+h5{
+    color: red;
+    margin-top: 20px;
+}
+.first{
+    color: #CCFF00;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+      
+}
+.first h3{
+    font-size: 30px;
+}
+
+.first .inp{
+    display: flex;
+    margin-top: 20px;
+}
+.first input{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    background-color: #d3d3d3;
+    border: none;
+}
+.first button{
+    background-color: #808080;
+    color: #CCFF00;
+    height: 30px;
+    margin-left: 6px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.first button:hover{
+    letter-spacing: 2px;
+}
+.second{
+    color: #CCFF00;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-top: 50px;
+    display: none;
+}
+.second_one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+h4,p{
+    font-size: 22px;
+}
+i{
+    margin-right: 10px;
+}
+.seconde_two{
+    display: flex;
+    margin-bottom: 20px;
+}
+.seconde_two label{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.seconde_two input{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.seconde_three{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.seconde_four{
+    text-align: center;
+    line-height: 2;
+}
+.seconde_five{
+    margin-top: 20px;
+    text-align: center;
+}
+.seconde_five input{
+    height: 22px;
+    width: 80px;
+    padding-left: 10px;
+    background-color: #d3d3d3;
+    border: none;
+}
+.seconde_five button{
+    background-color: #808080;
+    color: #CCFF00;
+    height: 30px;
+    margin-left: 6px;
+    width: 70px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.seconde_five button:hover{
+    letter-spacing: 1.1px;
+}
+#reset{
+    display: none;
+    margin: auto;
+}
+.correct{
+    color: rgb(45, 216, 45);
+}
+.incorrect{
+    color: red;
+}
+#name{
+    margin-right: 10px;
+}
+h4{
+    color: white;
+    margin-top: 20px;
+}
